@@ -1,0 +1,73 @@
+html {
+    background: #14213d;
+}
+
+button {
+    color: black;
+}
+
+.headerContainer {
+    background: #219ebc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.headerContainer > h1 {
+    color: #FFFF;
+}
+
+.recordContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.scoreContainer {
+    margin: 0 200px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    border: solid #219ebc;
+    padding: 10px;
+}
+
+.scoreContainer > h2 {
+    color: #ffb703;
+}
+
+.scoreContainer > p {
+    color: white;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+button {
+    cursor: pointer;
+    background: #FFFF;
+    border: solid #219ebc;
+    border-radius: 5px;
+    width: 50vh;
+    height: 50px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #219ebc;
+    border: solid white;
+}
+
+button:active {
+    scale: 0.9;
+}
+
+input {
+    color: black;
+}
